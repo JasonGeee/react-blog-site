@@ -1,7 +1,12 @@
+import { useState } from "react";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+
 function App() {
   return (
     <div>
-      <p className="text-6xl text-red-500">Hello World</p>
+      <Header />
+      <Footer />
     </div>
   );
 }
